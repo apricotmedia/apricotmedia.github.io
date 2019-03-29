@@ -1,0 +1,13 @@
+Create a mockup of the Final Project. The mockup must, at a minimum, provide a representation of the content structure and visual layout of the site. Other aspects of the site should also be represented including colour palette, typography, logos, and imagery.
+
+Here is the link to Algonquin College Visual Identity Standards for inspiration and if you wish to follow the Algonquin College branding guidelines.
+
+The mockup should have all 4 pages that your team has decided to build(3 required pages + 1 page from the 2 given options). You are to create 2 versions of each page, one for desktop and one for mobile. The branding and common elements of the page should match on all the mockups.
+
+Each page should have Student Name and Student Number of the team member working the that page.
+
+Combine your mockups in 2 PDF files, one for mobile and one for desktop. Each PDF should contain mockup of the 4 pages of your website.
+
+Submission
+
+Create a folder named mockups in your final project repository and add the 2 PDF files to the folder. Push your addition to GitHub pages. Submit the URL of your Github repository.
