@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/apricotmedia/apricotmedia.github.io#readme",
   "devDependencies": {
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.0",
+    "sass": "^1.17.4"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "save-dev": "^2.0.0"
   }
 }
