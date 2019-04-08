@@ -1,2 +1,47 @@
 // don't forget to leave comments while coding
 // and have fun!
+.contact {
+  .visual {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 62px);
+    .change {
+      height: 20%;
+      background-color: black;
+    }
+    .con-cont {
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      h2 {
+        height: 15%;
+        display: flex;
+        align-items: center;
+        margin-left: 5%;
+      }
+      form {
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        .section {
+          margin-left: 5%;
+          &:first-child {
+            display: flex;
+            justify-content: space-evenly;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .visual {
+    flex-direction: row;
+    .change,
+    .con-cont {
+      width: 50%;
+      height: 100%;
+    }
+  }
+}
