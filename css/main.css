@@ -1,6 +1,9 @@
 .carousel {
   width: 100%; }
 
+.product .visual h2 {
+  color: red; }
+
 .contain {
   margin: 0 auto;
   width: 90%;
