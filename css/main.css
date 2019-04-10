@@ -198,9 +198,15 @@ table {
         background-color: #ffffff; }
   .contact .visual .con-cont {
     height: 90%;
+    background-color: #43b02a;
     display: flex;
     flex-direction: column; }
+    .contact .visual .con-cont * {
+      font-size: 1.2rem;
+      font-family: Arial;
+      color: #003328; }
     .contact .visual .con-cont h2 {
+      font-size: 2rem;
       height: 15%;
       display: flex;
       align-items: center;
@@ -224,6 +230,8 @@ table {
           flex-direction: column;
           justify-content: space-evenly;
           align-items: center; }
+          .contact .visual .con-cont form .select .sub-sec select {
+            border: 2px solid #003328; }
       .contact .visual .con-cont form .input {
         height: 50%;
         height: 100%;
@@ -249,12 +257,19 @@ table {
           .contact .visual .con-cont form .input .sub-sec textarea {
             justify-self: end;
             width: 50%;
-            margin-right: 10%; }
+            margin-right: 10%;
+            border: 2px solid #003328; }
       .contact .visual .con-cont form .submit {
         height: 20%;
         display: flex;
         justify-content: center;
         align-items: center; }
+        .contact .visual .con-cont form .submit input {
+          color: #ffffff;
+          border: 2px solid #003328;
+          background-color: #003328;
+          width: 100px;
+          height: 40px; }
 
 @media all and (min-width: 992px) {
   .contact .visual {
