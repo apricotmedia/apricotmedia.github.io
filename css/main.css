@@ -1,8 +1,11 @@
 .carousel {
   width: 100%; }
 
-.product .visual h2 {
+.product h2 {
   color: red; }
+
+img {
+  max-width: 100%; }
 
 .contain {
   margin: 0 auto;
