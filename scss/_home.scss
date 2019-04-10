@@ -33,7 +33,19 @@
     }
   }
   .bag{
-    
+    width:56px;
+    height:40px;
+    // border:1px solid white;
+    // background-color: #fff;
+    a{
+      width:100%;
+      height:100%;
+      cursor:pointer;
+      img{
+       width:56px;
+       height:40px;
+      }
+    }
   }
 }
   
