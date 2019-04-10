@@ -1,6 +1,48 @@
 .carousel {
   width: 100%; }
 
+.contai {
+  width: 100%; }
+
+h1 {
+  text-align: center;
+  color: white; }
+
+.one {
+  background-color: #006341; }
+
+.two {
+  background-color: #338267; }
+
+.three {
+  background-color: #66A18D; }
+
+.four {
+  background-color: #A6C8BC; }
+
+.col-md-6 {
+  background-color: #E5EFEC;
+  color: black;
+  width: 50%;
+  display: flex;
+  justify-content: center; }
+
+.col-md-6 h1 {
+  color: #006341; }
+
+.col-md-6 p {
+  text-align: center; }
+
+.image1 {
+  width: 100%; }
+
+button {
+  border-radius: 15px 50px 30px 5px;
+  float: right;
+  width: 15vw;
+  color: #003328;
+  background-color: #a6c8bc; }
+
 .contain {
   margin: 0 auto;
   width: 90%;
@@ -33,3 +75,15 @@
     background-color: green; }
   .contain {
     height: 45vw; } }
+
+footer {
+  background-color: #212721;
+  display: flex;
+  justify-content: center;
+  color: white;
+  max-height: 50%; }
+
+footer .card {
+  background-color: #212721;
+  margin-left: 35%;
+  margin-top: 2%; }

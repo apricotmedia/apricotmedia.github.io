@@ -55,3 +55,16 @@
     height: $section-height-desklg;
   }
 }
+
+footer{
+  background-color: #212721;
+  display: flex;
+  justify-content: center;
+color:white;
+max-height: 50%;
+}
+footer .card{
+  background-color: #212721;
+  margin-left: 35%;
+  margin-top: 2%;
+}

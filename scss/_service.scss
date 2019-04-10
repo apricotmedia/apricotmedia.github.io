@@ -1,2 +1,49 @@
 // don't forget to leave comments while coding
 // and have fun!
+.contai{
+  width:100%;
+}
+// .row .col{
+//
+//   border:1px solid black;
+//   color: white;
+//   align-items:left;
+// }
+h1{
+  text-align: center;
+  color: white;
+}
+.one{
+  background-color: #006341;
+}
+.two{
+  background-color: #338267;}
+.three{
+  background-color: #66A18D;}
+.four{
+  background-color: #A6C8BC;
+}
+.col-md-6{
+  background-color: #E5EFEC;
+  color: black;
+  width:50%;
+  display: flex;
+justify-content:center;
+}
+.col-md-6 h1{
+  color:#006341;
+}
+.col-md-6 p{
+  text-align: center;
+}
+
+.image1{
+  width:100%;
+}
+button{
+  border-radius: 15px 50px 30px 5px;
+  float: right;
+  width:15vw;
+  color: $darkAlgonquin-green;
+  background-color:$ag-tint35;
+}
