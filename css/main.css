@@ -1,17 +1,28 @@
+.logo img {
+  height: 20px; }
+
+.media img {
+  height: 20px;
+  float: right; }
+
 .navbar {
   background-color: #2A2A2A !important;
   height: 82px; }
   .navbar ul li a {
     color: white !important; }
-  .navbar .navbar-toggler {
-    display: flex;
+
+.navbar-toggler {
+  display: flex;
+  align-items: center;
+  margin: 0 auto; }
+  .navbar-toggler .navbar-toggler-icon {
+    background-color: none;
     align-items: center;
-    margin: 0 auto; }
-    .navbar .navbar-toggler .navbar-toggler-icon {
-      background-color: none;
-      align-items: center;
-      justify-content: center;
-      display: flex; }
+    justify-content: center;
+    display: flex; }
+
+.nav-link img {
+  width: 20px; }
 
 h2 {
   font-family: arial;
