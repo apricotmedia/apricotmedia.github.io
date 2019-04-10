@@ -1,54 +1,41 @@
 // don't forget to leave comments while coding
 // and have fun!
-body{
-  background-color:black;
-}
+
 .carousel {
   width: 100%;
 }
-// .logo{
+
+.navbar{
+  background-color:$charcoal;
+  // height: 82px;
+  .navbar-brand{
+
+  }
+  .navbar-toggler{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+      .navbar-toggler-icon{
+      background-color: none;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+
+  }
+  }
+  .collapse{
+    .navbar-nav{
+      .nav-item{
+        .nav-link{
+        color: white;
+        }
+      }
+    }
+  }
+  .bag{
     
-   
-//   img{
-//      height:20px;
-//   }
-// }
-// .media{
-  
-//   img{
-//       height: 20px;
-//       float: right;
-//   }
-// }
-// .navbar {
-  
-//   background-color:#2A2A2A !important;
-//   height: 82px;
-// ul li a {
-//   color: white !important;
-  
-//    }
-
-//   }
-
-// .navbar-toggler{
-//   display: flex;
-//   align-items: center;
-//   margin: 0 auto;
-//   .navbar-toggler-icon{
-//       background-color: none;
-//       align-items: center;
-//       justify-content: center;
-//       display: flex;
-
-//   }
-// }
-// // .nav-link{
-// //     img{
-// //         width: 20px;
-// //     }
-  
-// }
+  }
+}
   
 // h2{
 // font-family: arial;

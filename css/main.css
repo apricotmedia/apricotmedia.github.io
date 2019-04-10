@@ -1,8 +1,19 @@
-body {
-  background-color: black; }
-
 .carousel {
   width: 100%; }
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.9); }
+  .navbar .navbar-toggler {
+    display: flex;
+    align-items: center;
+    margin: 0 auto; }
+    .navbar .navbar-toggler .navbar-toggler-icon {
+      background-color: none;
+      align-items: center;
+      justify-content: center;
+      display: flex; }
+  .navbar .collapse .navbar-nav .nav-item .nav-link {
+    color: white; }
 
 .contain {
   margin: 0 auto;
