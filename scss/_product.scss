@@ -1,21 +1,21 @@
 // don't forget to leave comments while coding
 // and have fun!
-.product {
-h2 {
-  color: red;
-}
-}
-img{
-  max-width:100%;
+.card-title { 
+  color: white;
+  text-align: center;
 }
 
-// .cards {
-//   width: 100px;
-//   height: 100px;
-//   background-color: blue;
-// }
-// .img {
-//   height: 100%;
-//   width: 100%;
-//   background-image: url("/img/logo.jpg")
-// }
+.card-body {
+  background-color: $algonquin-green;
+}
+
+.card-text {
+  color: white;
+}
+.cards{
+  .btn{
+    display: flex;
+    justify-items: center;
+    
+  }
+}
