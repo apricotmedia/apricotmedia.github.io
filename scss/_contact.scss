@@ -1,16 +1,46 @@
 // don't forget to leave comments while coding
 // and have fun!
+.footer {
+  width: 100%;
+  height: 300px;
+  margin-top: 100px;
+  background-color: #000000;
+}
 .contact {
   .visual {
     display: flex;
     flex-direction: column;
     height: calc(100% - 62px);
     .change {
-      height: 20%;
-      background-color: black;
+      height: 10%;
+      // background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        border-radius: 0;
+        flex-grow: 1;
+        height: 100%;
+        background-color: #000000;
+        .icon {
+          padding: 0;
+          margin: 0;
+          border: 0;
+          border-radius: 0;
+          width: 50px;
+          height: 50px;
+          background-color: #ffffff;
+        }
+      }
     }
     .con-cont {
-      height: 80%;
+      height: 90%;
       display: flex;
       flex-direction: column;
       h2 {
@@ -24,24 +54,86 @@
         display: flex;
         flex-direction: column;
         .section {
-          margin-left: 5%;
-          &:first-child {
+          width: 90%;
+          margin: 0 auto;
+        }
+        // select
+        .select {
+          height: 30%;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          .sub-sec {
+            height: 100%;
+            width: 100%;
             display: flex;
+            flex-direction: column;
             justify-content: space-evenly;
+            align-items: center;
           }
+        }
+        // input
+        .input {
+          height: 50%;
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .sub-sec {
+            width: 100%;
+            height: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            &:last-child {
+              height: 40%;
+            }
+            .title {
+              justify-self: start;
+              width: 40%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            input,
+            textarea {
+              justify-self: end;
+              width: 50%;
+              margin-right: 10%;
+            }
+          }
+        }
+        // .comment {
+        //   background-color: black;
+        // }
+        // submit
+        .submit {
+          height: 20%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
       }
     }
   }
 }
 
-@media (min-width: 1200px) {
-  .visual {
-    flex-direction: row;
-    .change,
-    .con-cont {
-      width: 50%;
-      height: 100%;
+@media all and (min-width: 992px) {
+  .contact {
+    .visual {
+      background-color: yellow;
+      display: flex;
+      flex-direction: row;
+      .change,
+      .con-cont {
+        flex-grow: 1;
+        // width: 40%;
+        height: 100%;
+      }
     }
   }
 }
+
+// @media (min-width: 1200px) {
+// }

@@ -129,13 +129,7 @@ table {
   border-spacing: 0;
 }
 // scss works good
-// import partials
 @import 'variables';
-@import 'home';
-@import 'service';
-@import 'product';
-@import 'contact';
-
 // navigation
 
 // main layout
@@ -185,3 +179,9 @@ table {
     height: $section-height-desklg;
   }
 }
+
+// import partials
+@import 'home';
+@import 'service';
+@import 'product';
+@import 'contact';
