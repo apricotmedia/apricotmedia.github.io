@@ -1,5 +1,9 @@
 // don't forget to leave comments while coding
 // and have fun!
+.fit-nav{
+  height:56px;
+  width:100%;
+}
 
 .carousel {
   width: 100%;
@@ -50,23 +54,43 @@
 
 // page1 content
 .page1 {
-  .smooth {
-  }
+  width:90%;
+  margin:0 auto;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
   .logo {
+    width:30%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
     img {
+      // height:100%;
+      width:100%;
     }
   }
   .media {
+    width:30%;
+    margin-left:40%;
+    justify-self: flex-end;
+    img {
+      width:100%;
+    }
   }
 }
 // home
 .home {
   .visual {
+    .layout{
+      display: flex;
+      flex-direction: column;
+    .part-left{
+
     h2 {
       font-family: arial;
       font-size: 28px;
       color: #00643c;
-      margin-top: 70px;
+      // margin-top: 70px;
       margin-bottom: 40px;
       display: flex;
       justify-content: center;
@@ -74,11 +98,31 @@
     .carousel {
       max-height: 700px;
       overflow: hidden;
-      .img d block w-100 {
-        width: auto;
-        height: 700px;
+      .carousel-inner{
+        .carousel-item{
+          position: relative;
+          .caption{
+            opacity: 0.5;
+            width:$caption-width;
+            height:$caption-height;
+            background-color: black;
+          position: absolute;
+          top:80%;
+          z-index: 2000;
+          }
+          .img d block w-100 {
+            z-index: 1000;
+            position: absolute;
+            width: auto;
+            height: 700px;
+          }
+        }
+        
       }
+      
     }
+  }
+    .part-right{
     .about {
       background-color: #00643c;
       color: white;
@@ -91,34 +135,43 @@
       }
     }
   }
+  }
+  }
 }
 
 // // DESKTOP VIEW
 
-// @media all and (min-width: 950px) {
-
-//   body{
-//       margin-left: 200px;
-//       margin-right: 200px;
-//   }
-// // .logos{
-// //     height: 80px;
-// //     width: 100%;
-// // }
-// .logo{
-
-//   margin-top: 15px;
-//   img{
-//      height:50px;
-//   }
+@media all and (min-width: 950px) {
+  .navbar{
+    width:90%;
+    margin:0 auto;
+  }
+  .home {
+    .visual {
+      .layout{
+        flex-direction: row;
+        .part-left{
+          width:50%;
+          h2 {
+            justify-content: flex-start;
+          }
+        }
+        .part-right{
+        width:50%;
+        }
+      }
+    }
+  }
+}
+// .carousel-inner{
+//   width: 50%;
 // }
-// .media{
-
-//   img{
-//       height: 50px;
-//       float: right;
-//   }
 // }
+
+
+
+
+
 // .navbar{
 //  margin-left: 200px;
 //  margin-right: 200px;

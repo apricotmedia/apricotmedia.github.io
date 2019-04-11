@@ -1,3 +1,7 @@
+.fit-nav {
+  height: 56px;
+  width: 100%; }
+
 .carousel {
   width: 100%; }
 
@@ -25,31 +29,76 @@
         width: 56px;
         height: 40px; }
 
-.home .visual h2 {
-  font-family: arial;
-  font-size: 28px;
-  color: #00643c;
-  margin-top: 70px;
-  margin-bottom: 40px;
+.page1 {
+  width: 90%;
+  margin: 0 auto;
   display: flex;
-  justify-content: center; }
+  justify-content: flex-start;
+  align-items: center; }
+  .page1 .logo {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+    .page1 .logo img {
+      width: 100%; }
+  .page1 .media {
+    width: 30%;
+    margin-left: 40%;
+    justify-self: flex-end; }
+    .page1 .media img {
+      width: 100%; }
 
-.home .visual .carousel {
-  max-height: 700px;
-  overflow: hidden; }
-  .home .visual .carousel .img d block w-100 {
-    width: auto;
-    height: 700px; }
-
-.home .visual .about {
-  background-color: #00643c;
-  color: white;
-  height: 300px; }
-  .home .visual .about p {
-    padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
+.home .visual .layout {
+  display: flex;
+  flex-direction: column; }
+  .home .visual .layout .part-left h2 {
+    font-family: arial;
+    font-size: 28px;
+    color: #00643c;
+    margin-bottom: 40px;
+    display: flex;
     justify-content: center; }
+  .home .visual .layout .part-left .carousel {
+    max-height: 700px;
+    overflow: hidden; }
+    .home .visual .layout .part-left .carousel .carousel-inner .carousel-item {
+      position: relative; }
+      .home .visual .layout .part-left .carousel .carousel-inner .carousel-item .caption {
+        opacity: 0.5;
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        position: absolute;
+        top: 80%;
+        z-index: 2000; }
+      .home .visual .layout .part-left .carousel .carousel-inner .carousel-item .img d block w-100 {
+        z-index: 1000;
+        position: absolute;
+        width: auto;
+        height: 700px; }
+  .home .visual .layout .part-right .about {
+    background-color: #00643c;
+    color: white;
+    height: 300px; }
+    .home .visual .layout .part-right .about p {
+      padding-top: 50px;
+      padding-left: 30px;
+      padding-right: 30px;
+      justify-content: center; }
+
+@media all and (min-width: 950px) {
+  .navbar {
+    width: 90%;
+    margin: 0 auto; }
+  .home .visual .layout {
+    flex-direction: row; }
+    .home .visual .layout .part-left {
+      width: 50%; }
+      .home .visual .layout .part-left h2 {
+        justify-content: flex-start; }
+    .home .visual .layout .part-right {
+      width: 50%; } }
 
 .contain {
   margin: 0 auto;
@@ -74,7 +123,7 @@
 
 @media all and (min-width: 992px) {
   body {
-    background-color: blue; }
+    background-color: white; }
   .contain {
     height: 70vw; } }
 
