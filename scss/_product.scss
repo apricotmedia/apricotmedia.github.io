@@ -59,8 +59,31 @@ button.btn.btn-link.collapsed {
 .pro-desk{
   display:none;
 }
+
+// test
+.test-area{
+  display:block;
+}
+.mobile-test, .desktop-test{
+  width:100%;
+  height:100px;
+}
+.mobile-test{
+  background-color:red;
+}
+.desktop-test{
+  background-color:green;
+  display:none;
+}
 @media all and (min-width: 992px) {
   // blue breakpoint
+  // test
+.mobile-test{
+  display:none;
+}
+.desktop-test{
+display:block;
+}
   // .pro-mob{
   //   display:none;
   // }
