@@ -25,6 +25,32 @@
         width: 56px;
         height: 40px; }
 
+.home .visual h2 {
+  font-family: arial;
+  font-size: 28px;
+  color: #00643c;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center; }
+
+.home .visual .carousel {
+  max-height: 700px;
+  overflow: hidden; }
+  .home .visual .carousel .img d block w-100 {
+    width: auto;
+    height: 700px; }
+
+.home .visual .about {
+  background-color: #00643c;
+  color: white;
+  height: 300px; }
+  .home .visual .about p {
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center; }
+
 .contain {
   margin: 0 auto;
   width: 90%;
