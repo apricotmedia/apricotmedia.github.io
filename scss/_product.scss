@@ -54,3 +54,18 @@ button.btn.btn-link.collapsed {
   margin-bottom: 0!important;
   text-align: center;
 }
+
+// control of visibility
+.pro-desk{
+  display:none;
+}
+@media all and (min-width: 992px) {
+  // blue breakpoint
+  // .pro-mob{
+  //   display:none;
+  // }
+  .pro-desk{
+    display:block;
+  }
+ 
+}

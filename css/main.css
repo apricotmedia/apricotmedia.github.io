@@ -40,6 +40,13 @@ button.btn.btn-link.collapsed {
   margin-bottom: 0 !important;
   text-align: center; }
 
+.pro-desk {
+  display: none; }
+
+@media all and (min-width: 992px) {
+  .pro-desk {
+    display: block; } }
+
 .contain {
   margin: 0 auto;
   width: 90%;
