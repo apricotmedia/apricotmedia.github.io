@@ -6,8 +6,12 @@
 }
 
 .card-body {
-  background-color: $algonquin-green;
+  background-color: $ch-tint50;
 }
+
+// .card-body2 {
+//   background-color: $algonquin-green;
+// }
 
 .card-text {
   color: white;
@@ -18,4 +22,35 @@
     justify-items: center;
     
   }
+
+  .card {
+    margin: 0 auto;
+  }
+
+}
+.btn-primary {
+  color: $white;
+  background-color: $algonquin-green;
+  border-color: $algonquin-green;
+ justify-content: center;
+}
+
+.btn-primary:hover {
+  background-color: $ch-tint50;
+  border-color: $algonquin-green;
+}
+
+button.btn.btn-link.collapsed {
+  color: white;
+  margin: 0 auto;
+}
+
+.accordion>.card .card-header {
+  margin-bottom: -1px;
+  background-color: $charcoal;
+}
+
+.mb-0, .my-0 {
+  margin-bottom: 0!important;
+  text-align: center;
 }

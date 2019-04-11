@@ -6,7 +6,7 @@
   text-align: center; }
 
 .card-body {
-  background-color: #006341; }
+  background-color: #909390; }
 
 .card-text {
   color: white; }
@@ -14,6 +14,31 @@
 .cards .btn {
   display: flex;
   justify-items: center; }
+
+.cards .card {
+  margin: 0 auto; }
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #006341;
+  border-color: #006341;
+  justify-content: center; }
+
+.btn-primary:hover {
+  background-color: #909390;
+  border-color: #006341; }
+
+button.btn.btn-link.collapsed {
+  color: white;
+  margin: 0 auto; }
+
+.accordion > .card .card-header {
+  margin-bottom: -1px;
+  background-color: rgba(0, 0, 0, 0.9); }
+
+.mb-0, .my-0 {
+  margin-bottom: 0 !important;
+  text-align: center; }
 
 .contain {
   margin: 0 auto;
