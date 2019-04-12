@@ -282,6 +282,40 @@ table {
       align-items: center; }
       .contact .visual .con-cont .info span {
         font-size: 2rem; }
+    .contact .visual .con-cont .info-space {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center; }
+      .contact .visual .con-cont .info-space .intro,
+      .contact .visual .con-cont .info-space .content {
+        display: flex; }
+      .contact .visual .con-cont .info-space .ways {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center; }
+      .contact .visual .con-cont .info-space .intro {
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        background-color: yellow; }
+        .contact .visual .con-cont .info-space .intro span {
+          font-size: 1.5rem; }
+      .contact .visual .con-cont .info-space .content {
+        height: 200px;
+        background-color: red; }
+        .contact .visual .con-cont .info-space .content .social {
+          width: 100%;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center; }
+          .contact .visual .con-cont .info-space .content .social .icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 10px;
+            background-color: #fff; }
 
 @media all and (min-width: 992px) {
   .contact .visual {
@@ -290,5 +324,5 @@ table {
     flex-direction: row; }
     .contact .visual .change,
     .contact .visual .con-cont {
-      flex-grow: 1;
+      width: 50%;
       height: 100%; } }
