@@ -36,7 +36,8 @@ button.btn.btn-link.collapsed {
   margin-bottom: -1px;
   background-color: rgba(0, 0, 0, 0.9); }
 
-.mb-0, .my-0 {
+.mb-0,
+.my-0 {
   margin-bottom: 0 !important;
   text-align: center; }
 
@@ -46,7 +47,8 @@ button.btn.btn-link.collapsed {
 .test-area {
   display: block; }
 
-.mobile-test, .desktop-test {
+.mobile-test,
+.desktop-test {
   width: 100%;
   height: 100px; }
 
