@@ -1,0 +1,36 @@
+{
+  "name": "apricotmedia.github.io",
+  "version": "1.0.0",
+  "description": "Apricot Media",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apricotmedia/apricotmedia.github.io.git"
+  },
+  "author": "Lianzhen Fu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apricotmedia/apricotmedia.github.io/issues"
+  },
+  "homepage": "https://github.com/apricotmedia/apricotmedia.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.5.0",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.17.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "browser-sync": "^2.26.3",
+    "jquery": "^3.3.1",
+    "save-dev": "^2.0.0"
+  }
+}
