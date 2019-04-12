@@ -274,6 +274,14 @@ table {
         .contact .visual .con-cont .map-area .map-layout iframe {
           width: 100%;
           height: 400px; }
+    .contact .visual .con-cont .info {
+      width: 100%;
+      height: calc(85% - 400px);
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .contact .visual .con-cont .info span {
+        font-size: 2rem; }
 
 @media all and (min-width: 992px) {
   .contact .visual {
