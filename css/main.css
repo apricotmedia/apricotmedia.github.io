@@ -222,7 +222,7 @@ table {
         height: 30%;
         display: flex;
         align-items: center;
-        justify-content: space-evenly; }
+        justify-content: center; }
         .contact .visual .con-cont form .select .sub-sec {
           height: 100%;
           width: 100%;
@@ -231,7 +231,8 @@ table {
           justify-content: space-evenly;
           align-items: center; }
           .contact .visual .con-cont form .select .sub-sec select {
-            border: 2px solid #003328; }
+            border: 2px solid #003328;
+            width: 66%; }
       .contact .visual .con-cont form .input {
         height: 50%;
         height: 100%;
@@ -249,15 +250,14 @@ table {
             height: 40%; }
           .contact .visual .con-cont form .input .sub-sec .title {
             justify-self: start;
-            width: 40%;
+            width: 30%;
             display: flex;
             justify-content: center;
             align-items: center; }
           .contact .visual .con-cont form .input .sub-sec input,
           .contact .visual .con-cont form .input .sub-sec textarea {
             justify-self: end;
-            width: 50%;
-            margin-right: 10%;
+            width: 30%;
             border: 2px solid #003328; }
       .contact .visual .con-cont form .submit {
         height: 20%;
