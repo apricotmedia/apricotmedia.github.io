@@ -17,7 +17,7 @@
   color: white;
 }
 
-.cards {
+.containercards {
   .btn {
     display: flex;
     justify-items: center;
@@ -74,14 +74,14 @@ button.btn.btn-link.collapsed {
   height: 100px;
 }
 
-.mobile-test {
-  background-color: red;
-}
+// .mobile-test {
+//   background-color: red;
+// }
 
-.desktop-test {
-  background-color: green;
-  display: none;
-}
+// .desktop-test {
+//   background-color: green;
+//   display: none;
+// }
 
 @media all and (min-width: 992px) {
 
@@ -95,11 +95,13 @@ button.btn.btn-link.collapsed {
     display: block;
   }
 
-  // .pro-mob{
-  //   display:none;
-  // }
   .pro-desk {
     display: block;
   }
 
+}
+
+.cardgap {
+  background-color: #43b02a;
+  height: 50px;
 }
