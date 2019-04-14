@@ -1,3 +1,9 @@
+body {
+  background-color: white !important; }
+
+.logo {
+  display: none; }
+
 .fit-nav {
   height: 56px;
   width: 100%; }
@@ -7,6 +13,8 @@
 
 .navbar {
   background-color: rgba(0, 0, 0, 0.9); }
+  .navbar a.navbar-brand {
+    display: none; }
   .navbar .navbar-toggler {
     display: flex;
     align-items: center;
@@ -18,16 +26,31 @@
       display: flex; }
   .navbar .collapse .navbar-nav .nav-item .nav-link {
     color: white; }
-  .navbar .bag {
-    width: 56px;
-    height: 40px; }
-    .navbar .bag a {
-      width: 100%;
-      height: 100%;
-      cursor: pointer; }
-      .navbar .bag a img {
-        width: 56px;
-        height: 40px; }
+
+.bag {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-bottom: 6px; }
+  .bag a {
+    width: 100%;
+    height: 100%;
+    cursor: pointer; }
+    .bag a img {
+      width: 35x;
+      height: 30px; }
+
+.ACLogo {
+  width: 40px;
+  height: 35px;
+  margin-bottom: 4px;
+  display: flex;
+  align-self: flex-start; }
+  .ACLogo img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-self: flex-start; }
 
 .page1 {
   width: 90%;
@@ -36,26 +59,17 @@
   justify-content: flex-start;
   align-items: center; }
   .page1 .logo {
-    width: 30%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center; }
-    .page1 .logo img {
-      width: 100%; }
+    display: none; }
   .page1 .media {
-    width: 30%;
-    margin-left: 40%;
-    justify-self: flex-end; }
-    .page1 .media img {
-      width: 100%; }
+    display: none; }
 
 .home .visual .layout {
   display: flex;
   flex-direction: column; }
-  .home .visual .layout .part-left h2 {
+  .home .visual .layout .part-left .visual h2 {
     font-family: arial;
     font-size: 28px;
-    color: #00643c;
+    color: #006341;
     margin-bottom: 40px;
     display: flex;
     justify-content: center; }
@@ -65,13 +79,17 @@
     .home .visual .layout .part-left .carousel .carousel-inner .carousel-item {
       position: relative; }
       .home .visual .layout .part-left .carousel .carousel-inner .carousel-item .caption {
-        opacity: 0.5;
+        font-size: 20x;
+        opacity: 0.4;
         width: 100%;
-        height: 100px;
+        height: 60px;
         background-color: black;
         position: absolute;
-        top: 80%;
-        z-index: 2000; }
+        top: 88%;
+        z-index: 2000;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 3px; }
       .home .visual .layout .part-left .carousel .carousel-inner .carousel-item .img d block w-100 {
         z-index: 1000;
         position: absolute;
@@ -80,12 +98,17 @@
   .home .visual .layout .part-right .about {
     background-color: #00643c;
     color: white;
-    height: 300px; }
+    height: 510px; }
+    .home .visual .layout .part-right .about h3 {
+      padding-top: 25px;
+      padding-left: 30px; }
     .home .visual .layout .part-right .about p {
-      padding-top: 50px;
+      padding-top: 20px;
       padding-left: 30px;
       padding-right: 30px;
       justify-content: center; }
+      .home .visual .layout .part-right .about p img {
+        display: none; }
 
 @media all and (min-width: 950px) {
   .navbar {
@@ -98,13 +121,48 @@
       .home .visual .layout .part-left h2 {
         justify-content: flex-start; }
     .home .visual .layout .part-right {
-      width: 50%; } }
+      width: 50%; }
+      .home .visual .layout .part-right h3 {
+        padding-top: 70px;
+        padding-left: 50px; }
+      .home .visual .layout .part-right p {
+        padding-top: 100px;
+        padding-left: 70px; }
+      .home .visual .layout .part-right img {
+        width: 100%;
+        margin-top: 10px; }
+  .page1 {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+    .page1 .logo {
+      width: 30%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center; }
+      .page1 .logo img {
+        width: 100%; }
+    .page1 .media {
+      width: 60%;
+      margin-left: 40%;
+      justify-self: flex-end; }
+      .page1 .media img {
+        width: 100%; } }
+
+h2 {
+  justify-content: left;
+  color: #006341;
+  margin-top: -60px;
+  margin-bottom: 20px;
+  margin-left: 20px; }
 
 .contain {
   margin: 0 auto;
   width: 90%;
   height: 140vw;
-  border: 1px solid black; }
+  border: none; }
   .contain .divider {
     width: 100%;
     height: 62px; }

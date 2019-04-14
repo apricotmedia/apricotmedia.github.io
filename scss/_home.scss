@@ -1,5 +1,14 @@
 // don't forget to leave comments while coding
 // and have fun!
+
+// MOBILE
+
+body{
+  background-color: white !important;
+}
+.logo{
+  display: none;
+}
 .fit-nav{
   height:56px;
   width:100%;
@@ -15,6 +24,9 @@
   // .navbar-brand {
 
   // }
+  a.navbar-brand{
+    display:none;
+  }
   .navbar-toggler {
     display: flex;
     align-items: center;
@@ -24,8 +36,10 @@
       align-items: center;
       justify-content: center;
       display: flex;
+
     }
   }
+
   .collapse {
     .navbar-nav {
       .nav-item {
@@ -35,9 +49,13 @@
       }
     }
   }
+  }
+
   .bag {
-    width: 56px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-bottom: 6px;
     // border:1px solid white;
     // background-color: #fff;
     a {
@@ -45,11 +63,29 @@
       height: 100%;
       cursor: pointer;
       img {
-        width: 56px;
-        height: 40px;
+        width: 35x;
+        height: 30px;
       }
     }
   }
+
+
+.ACLogo { 
+width: 40px;
+height: 35px;
+// margin-left: 10px;
+margin-bottom: 4px;
+display: flex;
+align-self: flex-start;
+// justify-content: left;
+img{
+  width: 100%;
+  height: 100%;
+  // margin-left: -275px;
+  display: flex;
+align-self: flex-start;
+
+}
 }
 
 // page1 content
@@ -60,24 +96,14 @@
   justify-content: flex-start;
   align-items: center;
   .logo {
-    width:30%;
-    display:flex;
-    justify-content: flex-start;
-    align-items: center;
-    img {
-      // height:100%;
-      width:100%;
-    }
+    display: none;
+
   }
   .media {
-    width:30%;
-    margin-left:40%;
-    justify-self: flex-end;
-    img {
-      width:100%;
+    display: none;
     }
   }
-}
+
 // home
 .home {
   .visual {
@@ -86,15 +112,16 @@
       flex-direction: column;
     .part-left{
 
-    h2 {
+    .visual{
+      h2{
       font-family: arial;
       font-size: 28px;
-      color: #00643c;
-      // margin-top: 70px;
+      color: $algonquin-green;
       margin-bottom: 40px;
       display: flex;
-      justify-content: center;
+      justify-content: center;}
     }
+    
     .carousel {
       max-height: 700px;
       overflow: hidden;
@@ -102,13 +129,18 @@
         .carousel-item{
           position: relative;
           .caption{
-            opacity: 0.5;
+            font-size: 20x;
+            opacity: 0.4;
             width:$caption-width;
             height:$caption-height;
             background-color: black;
           position: absolute;
-          top:80%;
+          top:88%;
           z-index: 2000;
+          color: $white;
+          text-align: center;
+      
+          padding-top: 3px;
           }
           .img d block w-100 {
             z-index: 1000;
@@ -126,12 +158,19 @@
     .about {
       background-color: #00643c;
       color: white;
-      height: 300px;
+      height: 510px;
+      h3{
+        padding-top: 25px;
+        padding-left: 30px;
+      }
       p {
-        padding-top: 50px;
+        padding-top: 20px;
         padding-left: 30px;
         padding-right: 30px;
         justify-content: center;
+        img{
+         display: none;
+        }
       }
     }
   }
@@ -158,18 +197,53 @@
         }
         .part-right{
         width:50%;
+        h3{
+          padding-top: 70px;
+          padding-left: 50px;
+        }
+        p{
+          padding-top: 100px;
+          padding-left: 70px;
+        }
+        img{
+          width: 100%;
+          margin-top: 10px;
+        }
         }
       }
     }
   }
+  .page1 {
+    width:90%;
+    margin:0 auto;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    .logo {
+      width:30%;
+      display:flex;
+      justify-content: flex-start;
+      align-items: center;
+      img {
+        // height:100%;
+        width:100%;
+      }
+    }
+    .media {
+      width:60%;
+      margin-left:40%;
+      justify-self: flex-end;
+      img {
+        width:100%;
+      }
+    }
+  }
 }
+
 // .carousel-inner{
 //   width: 50%;
 // }
 // }
-
-
-
 
 
 // .navbar{
@@ -196,9 +270,13 @@
 
 // }
 // }
-// h2{
-//   justify-content: left;
-// }
+h2{
+  justify-content: left;
+  color: $algonquin-green;
+  margin-top: -60px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
 // .carousel-inner{
 //   width: 50%;
 // }
