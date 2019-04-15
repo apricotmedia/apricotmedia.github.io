@@ -170,26 +170,46 @@ table {
     height: 10%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly; }
-    .contact .visual .change .btn {
+    justify-content: center;
+    flex-direction: column; }
+    .contact .visual .change .btnArea {
+      width: 100%;
+      height: 10%;
       display: flex;
-      justify-content: center;
       align-items: center;
-      padding: 0;
-      margin: 0;
-      border: 0;
-      border-radius: 0;
-      flex-grow: 1;
-      height: 100%;
-      background-color: #000000; }
-      .contact .visual .change .btn .icon {
+      justify-content: space-evenly; }
+      .contact .visual .change .btnArea .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding: 0;
         margin: 0;
-        border: 0;
+        border: 1px solid #006341;
         border-radius: 0;
-        width: 50px;
-        height: 50px;
-        background-color: #ffffff; }
+        flex-grow: 1;
+        height: 100%;
+        background-color: #006341; }
+        .contact .visual .change .btnArea .btn .icon {
+          padding: 0;
+          margin: 0;
+          border: 0;
+          border-radius: 0;
+          width: 50px;
+          height: 50px;
+          cursor: pointer; }
+        .contact .visual .change .btnArea .btn .formIC {
+          background-image: url(/image/contact/change/conForm.png);
+          background-size: cover; }
+        .contact .visual .change .btnArea .btn .mapIC {
+          background-image: url(/image/contact/change/conMap.png);
+          background-size: cover; }
+        .contact .visual .change .btnArea .btn .mesgIC {
+          background-image: url(/image/contact/change/conInfo.png);
+          background-size: cover; }
+    .contact .visual .change .bgpic {
+      width: 100%;
+      height: 90%;
+      background-color: #fff; }
   .contact .visual .con-cont {
     height: 90%;
     background-color: #43b02a;
@@ -326,3 +346,15 @@ table {
     .contact .visual .con-cont {
       width: 50%;
       height: 100%; } }
+
+.formIMG {
+  background-image: url(/image/contact/background/form.jpg);
+  background-size: cover; }
+
+.mapIMG {
+  background-image: url(/image/contact/background/map.jpg);
+  background-size: cover; }
+
+.infoIMG {
+  background-image: url(/image/contact/background/info.jpg);
+  background-size: cover; }

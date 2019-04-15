@@ -11,27 +11,53 @@
       // background-color: black;
       display: flex;
       align-items: center;
-      justify-content: space-evenly;
-      .btn {
+      justify-content: center;
+      flex-direction: column;
+      .btnArea {
+        width: 100%;
+        height: 10%;
         display: flex;
-        justify-content: center;
         align-items: center;
-        padding: 0;
-        margin: 0;
-        border: 0;
-        border-radius: 0;
-        flex-grow: 1;
-        height: 100%;
-        background-color: #000000;
-        .icon {
+        justify-content: space-evenly;
+        .btn {
+          display: flex;
+          justify-content: center;
+          align-items: center;
           padding: 0;
           margin: 0;
-          border: 0;
+          border: 1px solid $algonquin-green;
           border-radius: 0;
-          width: 50px;
-          height: 50px;
-          background-color: #ffffff;
+          flex-grow: 1;
+          height: 100%;
+          background-color: $algonquin-green;
+          // cursor: pointer;
+          .icon {
+            padding: 0;
+            margin: 0;
+            border: 0;
+            border-radius: 0;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+          }
+          .formIC {
+            background-image: url(/image/contact/change/conForm.png);
+            background-size: cover;
+          }
+          .mapIC {
+            background-image: url(/image/contact/change/conMap.png);
+            background-size: cover;
+          }
+          .mesgIC {
+            background-image: url(/image/contact/change/conInfo.png);
+            background-size: cover;
+          }
         }
+      }
+      .bgpic {
+        width: 100%;
+        height: 90%;
+        background-color: #fff;
       }
     }
     .con-cont {
@@ -128,7 +154,6 @@
       }
       .map-area {
         width: 100%;
-        // background-color: #fff;
         height: auto;
         // margin: 0 auto;
         display: flex;
@@ -226,3 +251,16 @@
 
 // @media (min-width: 1200px) {
 // }
+// jquery
+.formIMG {
+  background-image: url(/image/contact/background/form.jpg);
+  background-size: cover;
+}
+.mapIMG {
+  background-image: url(/image/contact/background/map.jpg);
+  background-size: cover;
+}
+.infoIMG {
+  background-image: url(/image/contact/background/info.jpg);
+  background-size: cover;
+}
