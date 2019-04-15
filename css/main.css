@@ -1,68 +1,130 @@
-.card-title {
-  color: white;
-  text-align: center; }
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
 
-.card-body {
-  background-color: #909390; }
-
-.card-text {
-  color: white; }
-
-.cards .btn {
-  display: flex;
-  justify-items: center; }
-
-.cards .card {
-  margin: 0 auto; }
-
-.btn-primary {
-  color: #ffffff;
-  background-color: #006341;
-  border-color: #006341;
-  justify-content: center; }
-
-.btn-primary:hover {
-  background-color: #909390;
-  border-color: #006341; }
-
-button.btn.btn-link.collapsed {
-  color: white;
-  margin: 0 auto; }
-
-.accordion > .card .card-header {
-  margin-bottom: -1px;
-  background-color: rgba(0, 0, 0, 0.9); }
-
-.mb-0,
-.my-0 {
-  margin-bottom: 0 !important;
-  text-align: center; }
-
-.pro-desk {
-  display: none; }
-
-.test-area {
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block; }
 
-.mobile-test,
-.desktop-test {
-  width: 100%;
-  height: 100px; }
+body {
+  line-height: 1; }
 
-.mobile-test {
-  background-color: red; }
+ol,
+ul {
+  list-style: none; }
 
-.desktop-test {
-  background-color: green;
-  display: none; }
+blockquote,
+q {
+  quotes: none; }
 
-@media all and (min-width: 992px) {
-  .mobile-test {
-    display: none; }
-  .desktop-test {
-    display: block; }
-  .pro-desk {
-    display: block; } }
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
 
 .contain {
   margin: 0 auto;
@@ -96,3 +158,203 @@ button.btn.btn-link.collapsed {
     background-color: green; }
   .contain {
     height: 45vw; } }
+
+.carousel {
+  width: 100%; }
+
+.contact .visual {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 62px); }
+  .contact .visual .change {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .contact .visual .change .btnArea {
+      width: 100%;
+      height: 10%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly; }
+      .contact .visual .change .btnArea .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        border: 1px solid #006341;
+        border-radius: 0;
+        flex-grow: 1;
+        height: 100%;
+        background-color: #006341; }
+        .contact .visual .change .btnArea .btn .icon {
+          padding: 0;
+          margin: 0;
+          border: 0;
+          border-radius: 0;
+          width: 50px;
+          height: 50px;
+          cursor: pointer; }
+        .contact .visual .change .btnArea .btn .formIC {
+          background-image: url(/image/contact/change/conForm.png);
+          background-size: cover; }
+        .contact .visual .change .btnArea .btn .mapIC {
+          background-image: url(/image/contact/change/conMap.png);
+          background-size: cover; }
+        .contact .visual .change .btnArea .btn .mesgIC {
+          background-image: url(/image/contact/change/conInfo.png);
+          background-size: cover; }
+    .contact .visual .change .bgpic {
+      width: 100%;
+      height: 90%;
+      background-color: #fff; }
+  .contact .visual .con-cont {
+    height: 90%;
+    background-color: #43b02a;
+    display: flex;
+    flex-direction: column; }
+    .contact .visual .con-cont * {
+      font-size: 1.2rem;
+      font-family: Arial;
+      color: #003328; }
+    .contact .visual .con-cont h2 {
+      font-size: 2rem;
+      height: 15%;
+      display: flex;
+      align-items: center;
+      margin-left: 5%; }
+    .contact .visual .con-cont form {
+      height: 85%;
+      display: flex;
+      flex-direction: column; }
+      .contact .visual .con-cont form .section {
+        width: 90%;
+        margin: 0 auto; }
+      .contact .visual .con-cont form .select {
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .contact .visual .con-cont form .select .sub-sec {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center; }
+          .contact .visual .con-cont form .select .sub-sec select {
+            border: 2px solid #003328;
+            width: 66%; }
+      .contact .visual .con-cont form .input {
+        height: 50%;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .contact .visual .con-cont form .input .sub-sec {
+          width: 100%;
+          height: 20%;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly; }
+          .contact .visual .con-cont form .input .sub-sec:last-child {
+            height: 40%; }
+          .contact .visual .con-cont form .input .sub-sec .title {
+            justify-self: start;
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+          .contact .visual .con-cont form .input .sub-sec input,
+          .contact .visual .con-cont form .input .sub-sec textarea {
+            justify-self: end;
+            width: 30%;
+            border: 2px solid #003328; }
+      .contact .visual .con-cont form .submit {
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .contact .visual .con-cont form .submit input {
+          color: #ffffff;
+          border: 2px solid #003328;
+          background-color: #003328;
+          width: 100px;
+          height: 40px; }
+    .contact .visual .con-cont .map-area {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center; }
+      .contact .visual .con-cont .map-area .map-layout {
+        width: 80%; }
+        .contact .visual .con-cont .map-area .map-layout iframe {
+          width: 100%;
+          height: 400px; }
+    .contact .visual .con-cont .info {
+      width: 100%;
+      height: calc(85% - 400px);
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .contact .visual .con-cont .info span {
+        font-size: 2rem; }
+    .contact .visual .con-cont .info-space {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center; }
+      .contact .visual .con-cont .info-space .intro,
+      .contact .visual .con-cont .info-space .content {
+        display: flex; }
+      .contact .visual .con-cont .info-space .ways {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center; }
+      .contact .visual .con-cont .info-space .intro {
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        background-color: yellow; }
+        .contact .visual .con-cont .info-space .intro span {
+          font-size: 1.5rem; }
+      .contact .visual .con-cont .info-space .content {
+        height: 200px;
+        background-color: red; }
+        .contact .visual .con-cont .info-space .content .social {
+          width: 100%;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center; }
+          .contact .visual .con-cont .info-space .content .social .icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 10px;
+            background-color: #fff; }
+
+@media all and (min-width: 992px) {
+  .contact .visual {
+    background-color: yellow;
+    display: flex;
+    flex-direction: row; }
+    .contact .visual .change,
+    .contact .visual .con-cont {
+      width: 50%;
+      height: 100%; } }
+
+.formIMG {
+  background-image: url(/image/contact/background/form.jpg);
+  background-size: cover; }
+
+.mapIMG {
+  background-image: url(/image/contact/background/map.jpg);
+  background-size: cover; }
+
+.infoIMG {
+  background-image: url(/image/contact/background/info.jpg);
+  background-size: cover; }
