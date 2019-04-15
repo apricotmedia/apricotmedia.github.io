@@ -1,6 +1,8 @@
 // don't forget to leave comments while coding
 // and have fun!
-
+.first {
+  margin-bottom: 20px;
+}
 
 .card-title {
   color: white;
@@ -67,15 +69,10 @@ button.btn.btn-link.collapsed {
 .desktop-test {
   width: 100%;
   height: 100px;
+  background-color: blue;
 }
 
-@media all and (min-width: 992px) {
 
-  // blue breakpoint
-  // test
-  .mobile-test {
-    display: none;
-  }
 
   .desktop-test {
     display: block;
@@ -85,14 +82,37 @@ button.btn.btn-link.collapsed {
     display: block;
   }
 
-}
 
 .cardgap {
   background-color: #43b02a;
   height: 50px;
 }
 
-// .container {
-//   display: flex;
-//     justify-items: center;
+.container {
+  padding-left: 0;
+  // display: flex;
+  //   justify-items: center;
+}
+
+
+  .desktopview {
+    display: none;
+  }
+// @media (max-width: 1300px) {
 // }
+  @media (min-width: 1350px) {
+    .desktopview {
+      display: block;
+    }
+    .mobileview {
+      color:yellow;
+      display: none;
+    }
+  }
+  .blankline {
+    color: white;
+  }
+
+  .card {
+    background-color: transparent;
+  }
