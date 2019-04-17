@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
@@ -14,8 +14,10 @@
     <link rel="stylesheet" href="css/min/main.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-      <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="ACLogo d-block d-sm-none">
+        <img src="/img/AC_ICON_1C_WHT_70x58.png" alt="">
+      </div>
       <button
         class="navbar-toggler"
         type="button"
@@ -23,11 +25,15 @@
         data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
-        aria-label="Toggle navigation"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon">
         </span>
       </button>
-
+      <div class="bag shop">
+        <a href="#">
+          <img src="/img/bag-01.png" alt="" />
+        </a>
+      </div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
@@ -46,11 +52,9 @@
           </li>
         </ul>
       </div>
-      <div class="ACLogo">
-          <img src="/img/AC_ICON_1C_WHT_70x58.png" alt="">
-        </div>
+      
      
-      <div class="bag">
+      <div class="bag disappear">
         <a href="#">
           <img src="/img/bag-01.png" alt="" />
         </a>
@@ -96,7 +100,7 @@
             <!-- digtArt below -->
             <div class="carousel-item">
                 <div class="caption">Graphic Art</div>
-                <img
+                
             
               <img
                 class="d-block w-100"
@@ -109,7 +113,7 @@
             <div class="carousel-item">
                 <div class="caption">Website Theme</div>
                 <img
-              <img
+              
                 class="d-block w-100"
                 src="/img/websiteTheme.png"
                 alt="Third slide"
@@ -120,7 +124,7 @@
             <div class="carousel-item">
                 <div class="caption">Logo</div>
                 <img
-              <img
+              
                 class="d-block w-100"
                 src="/img/logo.png"
                 alt="Fourth slide"
@@ -130,7 +134,7 @@
             <!-- business cards below-->
             <div class="carousel-item">
                 <div class="caption">Business Card Template</div>
-                <img
+            
               <img
                 class="d-block w-100"
                 src="/img/businessCards.png"
@@ -185,9 +189,7 @@
       </div>
       <!-- home end below -->
     </div>
-  </body>
-  <!-- bootstrap -->
-  <script
+    <script
     src="https://code.jquery.com/jquery-4.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"
@@ -202,6 +204,10 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"
   ></script>
+
+  <!-- bootstrap -->
+  
   <!-- js file -->
   <script src="js/min/main.min.js"></script>
+</body>
 </html>
