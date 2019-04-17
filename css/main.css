@@ -1,6 +1,9 @@
 .carousel {
   width: 100%; }
 
+.product {
+  height: auto !important; }
+
 .first {
   margin-bottom: 20px; }
 
