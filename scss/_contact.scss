@@ -15,7 +15,7 @@
       flex-direction: column;
       .btnArea {
         width: 100%;
-        height: 100%;
+        height: 10%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -55,7 +55,6 @@
         }
       }
       .bgpic {
-        display: none;
         width: 100%;
         height: 90%;
         background-color: #fff;
@@ -245,15 +244,6 @@
       .con-cont {
         width: 50%;
         height: 100%;
-      }
-      .change {
-        .btnArea {
-          height: 10%;
-        }
-        .bgpic {
-          display: flex;
-          height: 90%;
-        }
       }
     }
   }
