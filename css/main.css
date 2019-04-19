@@ -44,6 +44,10 @@ button {
     align-content: center;
     justify-content: center; } }
 
+.align {
+  margin-left: 30%;
+  margin-right: auto; }
+
 .contain {
   margin: 0 auto;
   width: 90%;
