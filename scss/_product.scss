@@ -1,5 +1,8 @@
 // don't forget to leave comments while coding
 // and have fun!
+.product {
+  height: auto !important;
+}
 .first {
   margin-bottom: 20px;
 }
@@ -44,7 +47,7 @@ button.btn.btn-link.collapsed {
   margin: 0 auto;
 }
 
-.accordion>.card .card-header {
+.accordion > .card .card-header {
   margin-bottom: -1px;
   background-color: $charcoal;
 }
@@ -72,16 +75,13 @@ button.btn.btn-link.collapsed {
   background-color: blue;
 }
 
+.desktop-test {
+  display: block;
+}
 
-
-  .desktop-test {
-    display: block;
-  }
-
-  .pro-desk {
-    display: block;
-  }
-
+.pro-desk {
+  display: block;
+}
 
 .cardgap {
   background-color: #43b02a;
@@ -94,25 +94,24 @@ button.btn.btn-link.collapsed {
   //   justify-items: center;
 }
 
-
-  .desktopview {
-    display: none;
-  }
+.desktopview {
+  display: none;
+}
 // @media (max-width: 1300px) {
 // }
-  @media (min-width: 1350px) {
-    .desktopview {
-      display: block;
-    }
-    .mobileview {
-      color:yellow;
-      display: none;
-    }
+@media (min-width: 1350px) {
+  .desktopview {
+    display: block;
   }
-  .blankline {
-    color: white;
+  .mobileview {
+    color: yellow;
+    display: none;
   }
+}
+.blankline {
+  color: white;
+}
 
-  .card {
-    background-color: transparent;
-  }
+.card {
+  background-color: transparent;
+}
