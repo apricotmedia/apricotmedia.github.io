@@ -9,19 +9,19 @@
   margin: 3.8%;
   font-family: arial; }
 
-.logo {
+.logo-ss {
   background-color: #006341; }
 
-.web {
+.web-ss {
   background-color: #338267; }
 
-.bcard {
+.bcard-ss {
   background-color: #66A18D; }
 
-.brand {
+.brand-ss {
   background-color: #A6C8BC; }
 
-h2 {
+.word {
   text-align: center; }
 
 .collapsed {
@@ -43,7 +43,7 @@ h2 {
     flex-direction: row; }
   .card-header {
     max-width: 100%; }
-  .card-body {
+  .same {
     max-width: 100%;
     justify-content: center;
     align-items: center;
@@ -61,8 +61,12 @@ h2 {
   width: 25%;
   color: #006341; }
 
-.card-body p {
-  font-size: 1.2  rem; }
+.btncenter:hover {
+  background-color: white;
+  border: 1px solid black; }
+
+.same p {
+  font-size: 1.25rem; }
 
 .contain {
   margin: 0 auto;
