@@ -129,6 +129,10 @@ table {
 html {
   scroll-behavior: smooth; }
 
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px; }
+
 .contain {
   margin: 0 auto;
   width: 90%;
@@ -548,6 +552,7 @@ button.btn.btn-link.collapsed {
           width: 100px;
           height: 40px; }
     .contact .visual .con-cont .map-area {
+      margin-top: 20px;
       width: 100%;
       height: auto;
       display: flex;
