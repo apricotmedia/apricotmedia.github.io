@@ -145,36 +145,24 @@ table {
 }
 
 @media all and (min-width: 576px) {
-  body {
-    background-color: yellow;
-  }
   .contain {
     height: $section-height-tabsm;
   }
 }
 
 @media all and (min-width: 768px) {
-  body {
-    background-color: red;
-  }
   .contain {
     height: $section-height-tablg;
   }
 }
 
 @media all and (min-width: 992px) {
-  body {
-    background-color: white;
-  }
   .contain {
     height: $section-height-desksm;
   }
 }
 
 @media (min-width: 1200px) {
-  body {
-    background-color: green;
-  }
   .contain {
     height: $section-height-desklg;
   }
