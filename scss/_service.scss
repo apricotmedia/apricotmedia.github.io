@@ -36,11 +36,12 @@ button {
 @media (min-width: 1200px){
 .accordion {
   margin:3.8%;
+  margin-left: 10%;
     display: flex;
-    max-width: 100%;
+    max-width: 80%;
   }
   .accordion .card{
-    max-width:80%;
+    max-width:100%;
     flex-direction: row;
     }
   .card-header{
@@ -56,4 +57,10 @@ button {
     justify-content: center;
   }
 
+}
+
+}
+.align{
+  margin-left:30%;
+    margin-right: auto;
 }
