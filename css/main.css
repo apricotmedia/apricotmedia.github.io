@@ -117,6 +117,8 @@ body {
       display: flex;
       justify-content: center;
       align-items: center; }
+  .collapse ul li a {
+    margin-right: 220px; }
   .disappear {
     display: block; }
   .shop {
@@ -132,15 +134,14 @@ body {
         justify-content: flex-start; }
     .home .visual .layout .part-right {
       width: 50%; }
-      .home .visual .layout .part-right h3 {
-        padding-top: 70px;
-        padding-left: 50px; }
-      .home .visual .layout .part-right p {
-        padding-top: 100px;
+      .home .visual .layout .part-right .about h3 {
+        padding-top: 80px;
         padding-left: 70px; }
-      .home .visual .layout .part-right img {
+      .home .visual .layout .part-right .about p {
+        padding-left: 70px; }
+      .home .visual .layout .part-right .about img {
         width: 100%;
-        margin-top: 10px; }
+        margin-bottom: 100px; }
   .page1 {
     width: 90%;
     margin: 0 auto;

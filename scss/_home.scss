@@ -178,7 +178,7 @@ align-self: flex-start;
   navbar-nav{
     // background-color:red !important;
     display: flex;
-    justify-content: center;s
+    justify-content: center;
   }
   .home{
     .visual{
@@ -201,11 +201,17 @@ align-self: flex-start;
       }
       
     }
-    
   }
-  
-  
-  
+  .collapse{
+    ul{
+      li{
+        a{ margin-right: 220px;
+
+        }
+       
+      }
+    }
+  }
   .disappear{
     display:block;
   }
@@ -224,22 +230,26 @@ align-self: flex-start;
           width:50%;
           h2 {
             justify-content: flex-start;
+
           }
         }
         .part-right{
         width:50%;
-        h3{
-          padding-top: 70px;
-          padding-left: 50px;
+        .about{
+          h3{
+            padding-top: 80px;
+            padding-left: 70px;
+          }
+          p{
+            padding-left: 70px;
+         
+          }
+          img{
+            width: 100%;
+            margin-bottom: 100px;
+          }
         }
-        p{
-          padding-top: 100px;
-          padding-left: 70px;
-        }
-        img{
-          width: 100%;
-          margin-top: 10px;
-        }
+        
         }
       }
     }
