@@ -1,7 +1,7 @@
 
 
 
-.service{
+.Services{
   max-width: 100%;
   border: 2px solid black;
 }
@@ -10,28 +10,30 @@
     font-family: arial;
 }
 
-.logo {
+.logo1 {
   background-color: #006341;
 }
 
-.web {
+.web1 {
   background-color: #338267;
 }
 
-.bcard {
+.bcard1 {
   background-color: #66A18D;
 }
 
-.brand {
+.brand1 {
   background-color: #A6C8BC;
 }
 
 h2 {
   text-align: center;
 }
-
+.collapsed:active{
+  color:white;
+}
 .collapsed{
-  color: black;
+  color: white;
   font-size: 2rem;
 }
 @media (min-width: 1200px){
@@ -54,14 +56,14 @@ h2 {
   .card-header{
     max-width: 100%;
   }
-  .card-body{
+  .card-body1{
     max-width: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;;
   }
   h2{text-align: center;;}
-  .card-body img{
+  .card-body1 img{
 
       }
 
@@ -78,6 +80,6 @@ h2 {
   width:25%;
   color:$algonquin-green;
 }
-.card-body p{
+.card-body1 p{
   font-size: 1.2  rem;
 }

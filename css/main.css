@@ -341,7 +341,7 @@ h2 {
   margin-bottom: 20px;
   margin-left: 20px; }
 
-.service {
+.Services {
   max-width: 100%;
   border: 2px solid black; }
 
@@ -349,23 +349,26 @@ h2 {
   margin: 3.8%;
   font-family: arial; }
 
-.logo {
+.logo1 {
   background-color: #006341; }
 
-.web {
+.web1 {
   background-color: #338267; }
 
-.bcard {
+.bcard1 {
   background-color: #66A18D; }
 
-.brand {
+.brand1 {
   background-color: #A6C8BC; }
 
 h2 {
   text-align: center; }
 
+.collapsed:active {
+  color: white; }
+
 .collapsed {
-  color: black;
+  color: white;
   font-size: 2rem; }
 
 @media (min-width: 1200px) {
@@ -383,7 +386,7 @@ h2 {
     flex-direction: row; }
   .card-header {
     max-width: 100%; }
-  .card-body {
+  .card-body1 {
     max-width: 100%;
     justify-content: center;
     align-items: center;
@@ -401,7 +404,7 @@ h2 {
   width: 25%;
   color: #006341; }
 
-.card-body p {
+.card-body1 p {
   font-size: 1.2  rem; }
 
 .product {
