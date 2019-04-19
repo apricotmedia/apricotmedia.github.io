@@ -1,6 +1,6 @@
 console.log('JS works good')
 console.log('gulpfile works')
-$(document).ready(function ($) {
+$(document).ready(function($) {
   // home part
   $('#homeSec').load('home.html')
   // product part
@@ -9,7 +9,7 @@ $(document).ready(function ($) {
   $('#conCont').load('contact/info.html')
   $('#bgpic').addClass('infoIMG')
   // eventlistener
-  $('#conForm').on('click', function () {
+  $('#conForm').on('click', function() {
     console.log('clicked form btn')
     $('#conCont')
       .load('contact/form.html')
@@ -18,14 +18,14 @@ $(document).ready(function ($) {
       .removeClass('infoIMG mapIMG')
       .addClass('formIMG')
   })
-  $('#conMap').on('click', function () {
+  $('#conMap').on('click', function() {
     console.log('clicked map btn')
     $('#conCont').load('contact/map.html')
     $('#bgpic')
       .removeClass('infoIMG formIMG')
       .addClass('mapIMG')
   })
-  $('#conMesg').on('click', function () {
+  $('#conMesg').on('click', function() {
     console.log('clicked info btn')
     $('#conCont').load('contact/info.html')
     $('#bgpic')
