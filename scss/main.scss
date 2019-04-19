@@ -131,7 +131,9 @@ table {
 // scss works good
 @import 'variables';
 // navigation
-
+html {
+  scroll-behavior: smooth;
+}
 // main layout
 .contain {
   margin: 0 auto;
@@ -144,6 +146,17 @@ table {
   }
 }
 
+// footer
+.footer {
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: $charcoal;
+}
 @media all and (min-width: 576px) {
   .contain {
     height: $section-height-tabsm;

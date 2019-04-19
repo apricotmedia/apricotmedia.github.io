@@ -200,14 +200,14 @@
           align-items: center;
           // flex-grow: 1;
           height: 100px;
-          background-color: yellow;
+          // background-color: yellow;
           span {
             font-size: 1.5rem;
           }
         }
         .content {
           height: 200px;
-          background-color: red;
+          // background-color: red;
           .social {
             width: 100%;
             display: flex;
@@ -217,7 +217,18 @@
               width: 80px;
               height: 80px;
               margin: 0 10px;
-              background-color: #fff;
+              // background-color: #fff;
+              background-size: contain;
+              cursor: pointer;
+            }
+            .ig {
+              background-image: url(/image/contact/social/ig.jpg);
+            }
+            .fb {
+              background-image: url(/image/contact/social/facebook.jpg);
+            }
+            .tw {
+              background-image: url(/image/contact/social/twitter.png);
             }
           }
         }
@@ -231,7 +242,7 @@
 @media all and (min-width: 992px) {
   .contact {
     .visual {
-      background-color: yellow;
+      // background-color: yellow;
       display: flex;
       flex-direction: row;
       .change,
