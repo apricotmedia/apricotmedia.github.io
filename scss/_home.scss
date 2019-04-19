@@ -2,19 +2,19 @@
 // and have fun!
 
 // MOBILE
-.disappear{
-  display:none;
-}
-
-body{
-  background-color: white !important;
-}
-.logo{
+.disappear {
   display: none;
 }
-.fit-nav{
-  height:56px;
-  width:100%;
+
+body {
+  background-color: white !important;
+}
+.logo {
+  display: none;
+}
+.fit-nav {
+  height: 56px;
+  width: 100%;
 }
 
 .carousel {
@@ -25,69 +25,63 @@ body{
   background-color: $charcoal;
   // height: 82px;
   // .navbar-brand {
-
-  }
-  .navbar-toggler {
-  
-    .navbar-toggler-icon {
-    fill: white;
-
-    }
-  }
-
-  .collapse {
-    .navbar-nav {
-      .nav-item {
-        .nav-link {
-          color: white;
-        }
-      }
-    }
-  }
-  
-
-  .bag {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-    margin-bottom: 6px;
-    // border:1px solid white;
-    // background-color: #fff;
-    a {
-      width: 100%;
-      height: 100%;
-      cursor: pointer;
-      img {
-        width: 35x;
-        height: 30px;
-      }
-    }
-  }
-
-
-.ACLogo { 
-width: 40px;
-height: 35px;
-// margin-left: 10px;
-margin-bottom: 4px;
-display: flex;
-align-self: flex-start;
-// justify-content: left;
-img{
-  width: 100%;
-  height: 100%;
-  // margin-left: -275px;
-  display: flex;
-align-self: flex-start;
-
 }
+.navbar-toggler {
+  .navbar-toggler-icon {
+    fill: white;
+  }
+}
+
+.collapse {
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        color: white;
+      }
+    }
+  }
+}
+
+.bag {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-bottom: 6px;
+  // border:1px solid white;
+  // background-color: #fff;
+  a {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    img {
+      width: 35x;
+      height: 30px;
+    }
+  }
+}
+
+.ACLogo {
+  width: 40px;
+  height: 35px;
+  // margin-left: 10px;
+  margin-bottom: 4px;
+  display: flex;
+  align-self: flex-start;
+  // justify-content: left;
+  img {
+    width: 100%;
+    height: 100%;
+    // margin-left: -275px;
+    display: flex;
+    align-self: flex-start;
+  }
 }
 
 // page1 content
 .page1 {
-  width:90%;
-  margin:0 auto;
-  display:flex;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
   justify-content: flex-start;
   align-items: center;
   .logo {
@@ -101,92 +95,90 @@ align-self: flex-start;
 // home
 .home {
   .visual {
-    .layout{
+    .layout {
       display: flex;
       flex-direction: column;
-    .part-left{
+      .part-left {
+        .visual {
+          h2 {
+            font-family: arial;
+            font-size: 28px;
+            color: $algonquin-green;
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: center;
+          }
+        }
 
-    .visual{
-      h2{
-      font-family: arial;
-      font-size: 28px;
-      color: $algonquin-green;
-      margin-bottom: 40px;
-      display: flex;
-      justify-content: center;}
-    }
-    
-    .carousel {
-      max-height: 510px;
-      overflow: hidden;
-      .carousel-inner{
-        .carousel-item{
-          position: relative;
-          .caption{
-            font-size: 20x;
-            opacity: 0.4;
-            width:$caption-width;
-            height:$caption-height;
-            background-color: black;
-          position: absolute;
-          top:88%;
-          z-index: 2000;
-          color: $white;
-          text-align: center;
-      
-          padding-top: 3px;
-          }
-          .img d block w-100 {
-            z-index: 1000;
-            position: absolute;
-            width: auto;
-            height: 700px;
+        .carousel {
+          max-height: 510px;
+          overflow: hidden;
+          .carousel-inner {
+            .carousel-item {
+              position: relative;
+              .caption {
+                font-size: 20x;
+                opacity: 0.4;
+                width: $caption-width;
+                height: $caption-height;
+                background-color: black;
+                position: absolute;
+                top: 88%;
+                z-index: 2000;
+                color: $white;
+                text-align: center;
+
+                padding-top: 3px;
+              }
+              .img d block w-100 {
+                z-index: 1000;
+                position: absolute;
+                width: auto;
+                height: 700px;
+              }
+            }
           }
         }
-        
       }
-      
-    }
-  }
-    .part-right{
-    .about {
-      background-color: #00643c;
-      color: white;
-      height: 510px;
-      h3{
-        padding-top: 25px;
-        padding-left: 30px;
-      }
-      p {
-        padding-top: 20px;
-        padding-left: 30px;
-        padding-right: 30px;
-        justify-content: center;
-        img{
-         display: none;
+      .part-right {
+        .about {
+          background-color: #00643c;
+          color: white;
+          height: 510px;
+          h3 {
+            padding-top: 25px;
+            padding-left: 30px;
+          }
+          p {
+            padding-top: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+            justify-content: center;
+            img {
+              display: none;
+            }
+          }
         }
       }
     }
-  }
-  }
   }
 }
 
 // // DESKTOP VIEW
 
 @media all and (min-width: 950px) {
-  navbar-nav{
+  navbar-nav {
     // background-color:red !important;
     display: flex;
-    justify-content: center;s
+    justify-content: center;
   }
-  .home{
-    .visual{
-      .layout{
-        .part-left{
-          background-color:$charcoal;
-          .carousel{
-            height:100%;
+  .home {
+    .visual {
+      .layout {
+        .part-left {
+          background-color: $charcoal;
+          .carousel {
+            height: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -199,91 +191,84 @@ align-self: flex-start;
           }
         }
       }
-      
     }
-    
   }
-  
-  
-  
-  .disappear{
-    display:block;
+
+  .disappear {
+    display: block;
   }
-  .shop{
-    display:none;
+  .shop {
+    display: none;
   }
-  .navbar{
-    width:90%;
-    margin:0 auto;
+  .navbar {
+    width: 90%;
+    margin: 0 auto;
   }
   .home {
     .visual {
-      .layout{
+      .layout {
         flex-direction: row;
-        .part-left{
-          width:50%;
+        .part-left {
+          width: 50%;
           h2 {
             justify-content: flex-start;
           }
         }
-        .part-right{
-        width:50%;
-        h3{
-          padding-top: 70px;
-          padding-left: 50px;
-        }
-        p{
-          padding-top: 100px;
-          padding-left: 70px;
-        }
-        img{
-          width: 100%;
-          margin-top: 10px;
-        }
+        .part-right {
+          width: 50%;
+          h3 {
+            padding-top: 70px;
+            padding-left: 50px;
+          }
+          p {
+            padding-top: 100px;
+            padding-left: 70px;
+          }
+          img {
+            width: 100%;
+            margin-top: 10px;
+          }
         }
       }
     }
   }
   .page1 {
-    width:90%;
-    margin:0 auto;
-    display:flex;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
     justify-content: flex-start;
     align-items: center;
     .logo {
-      width:30%;
-      display:flex;
+      width: 30%;
+      display: flex;
       justify-content: flex-start;
       align-items: center;
       img {
         // height:100%;
-        width:100%;
+        width: 100%;
       }
     }
     .media {
       display: block;
-      width:60%;
-      margin-left:40%;
+      width: 60%;
+      margin-left: 40%;
       justify-self: flex-start;
       img {
-        width:100%;
+        width: 100%;
       }
     }
-    .ACLogo{
-      img{
+    .ACLogo {
+      img {
         display: none;
       }
-    
     }
   }
-
 }
 
 // .carousel-inner{
 //   width: 50%;
 // }
 // }
-
 
 // .navbar{
 //  margin-left: 200px;
@@ -309,7 +294,7 @@ align-self: flex-start;
 
 // }
 // }
-h2{
+h2 {
   justify-content: left;
   color: $algonquin-green;
   margin-top: -60px;
