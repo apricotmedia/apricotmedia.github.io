@@ -7,6 +7,7 @@ Nelvin
 Tim
 Carla
 <br/>
+<br/>
 #Coding Work Distribution:
 <br/>
 Carla: Navbar, Header, Home Section
