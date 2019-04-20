@@ -346,6 +346,76 @@ h2 {
   margin-bottom: 20px;
   margin-left: 20px; }
 
+.Services {
+  max-width: 100%;
+  border: 2px solid black; }
+
+.accordion {
+  margin: 3.8%;
+  font-family: arial; }
+
+.logo-ss {
+  background-color: #006341; }
+
+.web-ss {
+  background-color: #338267; }
+
+.bcard-ss {
+  background-color: #66a18d; }
+
+.brand-ss {
+  background-color: #a6c8bc; }
+
+.word {
+  text-align: center; }
+
+.collapsed:active {
+  color: white; }
+
+.collapsed {
+  color: white;
+  font-size: 2rem; }
+
+@media (min-width: 1200px) {
+  .accordion {
+    margin: 3.8%;
+    margin-left: 10%;
+    display: flex;
+    max-width: 80%;
+    justify-content: space-around; }
+  h2 {
+    text-align: left;
+    font-size: 2rem; }
+  .accordion .card {
+    max-width: 100%;
+    flex-direction: row; }
+  .card-header {
+    max-width: 100%; }
+  .same {
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+  h2 {
+    text-align: center; } }
+
+.align {
+  margin-left: 30%;
+  margin-right: auto; }
+
+.btncenter {
+  border-radius: 10%;
+  background-color: #59a5ff;
+  width: 25%;
+  color: #006341; }
+
+.btncenter:hover {
+  background-color: white;
+  border: 1px solid black; }
+
+.same p {
+  font-size: 1.25rem; }
+
 .product {
   height: auto !important; }
 
