@@ -7367,21 +7367,41 @@ a.text-dark:hover, a.text-dark:focus {
   flex: 1 1 auto;
   padding: 1.25rem; }
 
-.accr > .card {
+.cas {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem; }
+  .cas > hr {
+    margin-right: 0;
+    margin-left: 0; }
+  .cas > .list-group:first-child .list-group-item:first-child {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem; }
+  .cas > .list-group:last-child .list-group-item:last-child {
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem; }
+
+.accr > .cas {
   overflow: hidden; }
-  .accr > .card:not(:first-of-type) .card-header-n:first-child {
+  .accr > .cas:not(:first-of-type) .card-header-n:first-child {
     border-radius: 0; }
-  .accr > .card:not(:first-of-type):not(:last-of-type) {
+  .accr > .cas:not(:first-of-type):not(:last-of-type) {
     border-bottom: 0;
     border-radius: 0; }
-  .accr > .card:first-of-type {
+  .accr > .cas:first-of-type {
     border-bottom: 0;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0; }
-  .accr > .card:last-of-type {
+  .accr > .cas:last-of-type {
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
-  .accr > .card .card-header-n {
+  .accr > .cas .card-header-n {
     margin-bottom: -1px; }
 
 .service {
@@ -7442,7 +7462,7 @@ a.text-dark:hover, a.text-dark:focus {
   .mb-0 {
     text-align: left;
     font-size: 2rem; }
-  .accr .card {
+  .accr .cas {
     max-width: 100%;
     flex-direction: row; }
   .card-header-n {
@@ -7478,9 +7498,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .same p {
   font-size: 1.25rem; }
-
-.card {
-  background-color: green; }
 
 .product {
   height: auto !important; }
