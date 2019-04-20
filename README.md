@@ -1,8 +1,13 @@
 # apricotmedia.github.io
+
 final project
 Paul
 Nelvin
 Tim
 Carla
 
-I am figuring this out.
+Coding Work Distribution:
+Carla: Navbar, Header, Home Section
+Nelvin:Service Section
+Tim:Product Section
+Paul:Contact Section, Github repository and branch management
