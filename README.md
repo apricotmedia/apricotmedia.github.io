@@ -1,6 +1,7 @@
 # apricotmedia.github.io
 
-#final project→→
+#final project
+<br/>
 Paul
 Nelvin
 Tim
