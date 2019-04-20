@@ -61,10 +61,7 @@
     }
   }
 }
-.service{
-  max-width: 100%;
-  border: 2px solid black;
-}
+
 .accr{
     margin:3.8%;
     font-family: arial;
@@ -144,6 +141,7 @@
   .accr .cas{
     max-width:100%;
     flex-direction: row;
+    justify-content: space-around;
     }
   .card-header-n{
     padding: $card-spacer-y $card-spacer-x;

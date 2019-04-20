@@ -7409,10 +7409,6 @@ a.text-dark:hover, a.text-dark:focus {
   .accr > .cas .card-header-n {
     margin-bottom: -1px; }
 
-.service {
-  max-width: 100%;
-  border: 2px solid black; }
-
 .accr {
   margin: 3.8%;
   font-family: arial; }
@@ -7469,7 +7465,8 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 2rem; }
   .accr .cas {
     max-width: 100%;
-    flex-direction: row; }
+    flex-direction: row;
+    justify-content: space-around; }
   .card-header-n {
     padding: 0.75rem 1.25rem;
     margin-bottom: 0;
