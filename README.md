@@ -10,4 +10,4 @@ Coding Work Distribution:
 Carla: Navbar, Header, Home Section
 Nelvin:Service Section
 Tim:Product Section
-Paul:Contact Section, Github repository and branch management
+Paul:General Layout, Contact Section, Github repository and branch management
