@@ -1,11 +1,45 @@
 
 
+@import"node_modules/bootstrap/scss/bootstrap.scss";
+.body{
+  flex: 1 1 auto;
+  padding: $card-spacer-x;
+  color: $card-color;
+}
+.accr{
+  > .card {
+    overflow: hidden;
 
+    &:not(:first-of-type) {
+      .card-header-n:first-child {
+        @include border-radius(0);
+      }
+
+      &:not(:last-of-type) {
+        border-bottom: 0;
+        @include border-radius(0);
+      }
+    }
+
+    &:first-of-type {
+      border-bottom: 0;
+      @include border-bottom-radius(0);
+    }
+
+    &:last-of-type {
+      @include border-top-radius(0);
+    }
+
+    .card-header-n {
+      margin-bottom: -$card-border-width;
+    }
+  }
+}
 .service{
   max-width: 100%;
   border: 2px solid black;
 }
-.accordion{
+.accr{
     margin:3.8%;
     font-family: arial;
 }
@@ -33,9 +67,43 @@
 .collapsed{
   color: black;
   font-size: 2rem;
+
 }
+.btnn{
+  display: inline-block;
+  color: $body-color;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  border: $btn-border-width solid transparent;
+
+}
+.btnn{
+
+  text-decoration: $link-decoration;
+
+  @include hover {
+    color:$newgrowth-green;
+    text-decoration: $link-hover-decoration;
+  }
+
+  &:focus,
+  &.focus {
+    text-decoration: $link-hover-decoration;
+    box-shadow: none;
+  }
+
+  &:disabled,
+  &.disabled {
+    color: $btn-link-disabled-color;
+    pointer-events: none;
+  }
+
+}
+
 @media (min-width: 1200px){
-.accordion {
+.accr {
   margin:3.8%;
   margin-left: 10%;
     display: flex;
@@ -43,16 +111,30 @@
     justify-content: space-around;
 
   }
-  h2{
+  .mb-0{
     text-align: left;
     font-size: 2rem;
   }
-  .accordion .card{
+  .accr .card{
     max-width:100%;
     flex-direction: row;
     }
-  .card-header{
-    max-width: 100%;
+  .card-header-n{
+    padding: $card-spacer-y $card-spacer-x;
+   margin-bottom: 0; // Removes the default margin-bottom of <hN>
+   color: $card-cap-color;
+   background-color: $card-cap-bg;
+   border-bottom: $card-border-width solid $card-border-color;
+
+   &:first-child {
+     @include border-radius($card-inner-border-radius $card-inner-border-radius 0 0);
+   }
+
+   + .list-group {
+     .list-group-item:first-child {
+       border-top: 0;
+     }
+   }
   }
   .same{
     max-width: 100%;
@@ -76,11 +158,12 @@
   border-radius: 10%;
   background-color: #59A5FF;
   width:25%;
-  color:$algonquin-green;
+
 }
 .btncenter:hover{
   background-color: white;
   border:1px solid black;
+  color:$algonquin-green;
 }
 .same p{
   font-size: 1.25rem;
