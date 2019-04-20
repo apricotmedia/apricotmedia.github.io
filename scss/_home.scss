@@ -146,10 +146,13 @@ body {
           color: white;
           height: 510px;
           h3 {
-            padding-top: 25px;
+            font-size: 1.8rem;
+            padding-top: 45px;
             padding-left: 30px;
           }
           p {
+            font-size: 1.2rem;
+            line-height: 25px;
             padding-top: 20px;
             padding-left: 30px;
             padding-right: 30px;
@@ -167,6 +170,9 @@ body {
 // // DESKTOP VIEW
 
 @media all and (min-width: 950px) {
+  .nav-item {
+    margin-right: 55% !important;
+  }
   navbar-nav {
     // background-color:red !important;
     display: flex;
