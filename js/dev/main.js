@@ -1,4 +1,4 @@
-/*
+/*!
  * jQuery JavaScript Library v3.3.1
  * https://jquery.com/
  *
@@ -14804,6 +14804,8 @@ console.log('gulpfile works')
 $(document).ready(function ($) {
   // home part
   $('#homeSec').load('home.html')
+  // service part
+  $('#serviceHtml').load('service.html')
   // product part
   $('#productHtml').load('products.html')
   // contact part
